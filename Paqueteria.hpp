@@ -47,8 +47,8 @@ public:
     string ordenarPorOrigen();
     string ordenarPorPeso();
     string mostrarLista();
-    void guardarArchivo();
-    void recuperarArchivo();
+    void guardarArchivo(); //Desarrollar el metodo en el archivo main, para que sea reutilizable
+    void recuperarArchivo(); //Desarrollar el metodo en el archivo main, para que sea reutilizable
     long dameContNodo();
     long dameLongitud();
 };
